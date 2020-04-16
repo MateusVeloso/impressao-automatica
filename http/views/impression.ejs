@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/impression.css' />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <header data-component="Header">
+        <label class="title">Pedido</label>
+        <label class="sub-title">Detalhamento de pedido gerado automáticamente, sistema de pedidos</label>
+        <table class="tb-head-dacte">
+            <thead>
+                <tr>
+                    <th>QT</th>
+                    <th>Produto</th>
+                    <th>Vl. Unit</th>
+                    <th>Sub Total</th>
+                </tr>
+            </thead>
+            <tbody id="pedido">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total:</td>
+                    <td id="total"></td>
+                </tr>
+            </tfoot>
+        </table>
+        </br>
+        <div class=col-100>
+            <div class="container-lb-chave-125">
+                <label> DATA E HORA DE EMISSÃO: </label>
+            </div>
+            <div class="container-lb-valor-125">
+                <label data-dthr-emissao></label>
+            </div>
+        </div>
+    </header>
+    <!--
+    <section data-component="Section">
+        <table class="info-body">
+            <thead>
+                <tr>
+                    <th>CNPJ</th>
+                    <th>INSCRIÇÃO ESTADUAL</th>
+                    <th>TELEFONE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-cnpj></td>
+                    <td data-insc></td>
+                    <td data-tel></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    -->
+    <div class="block-all" id='block'></div>
+    <footer>
+    </footer>
+    <script src="/js/impression.js" type="text/javascript"></script>
+</body>
+
+</html>

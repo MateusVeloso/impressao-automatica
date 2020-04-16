@@ -1,0 +1,357 @@
+@page {
+    margin: 0;
+    /*size: 80mm 297mm;*/
+}
+
+html,
+body {
+    width: 265px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    float: left;
+    width: 100%;
+    border-bottom: .3px solid #000;
+    margin-bottom: 5px;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    float: left;
+    position: relative;
+    left: 43%;
+}
+
+.sub-title {
+    font-size: 10px;
+    width: auto;
+    float: left;
+    margin-bottom: 5px;
+    border-bottom: .3px dotted #000;
+    margin-left: 10px;
+}
+
+.body-title {
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.body-sub-title {
+    font-size: 8px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    word-wrap: break-word;
+    min-height: 11px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.col-100-padding {
+    width: 100%;
+    float: left;
+    word-wrap: break-word;
+    min-height: 11px;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    margin-bottom: 1px;
+    word-wrap: break-word;
+    min-height: 11px;
+}
+
+.col-49 {
+    width: 49%;
+    float: left;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    margin-top: 0;
+    padding: 1px;
+}
+
+.border-col {
+    padding: 3px;
+    border: 0.1px solid #000;
+    margin-bottom: 3px;
+}
+
+.border-col-50 {
+    border-bottom: .3px solid #000;
+    border-right: .3px solid #000;
+}
+
+.border-bottom {
+    border-bottom: .3px solid #000;
+}
+
+.border-right {
+    border-right: .3px solid #000;
+}
+
+.border-left {
+    border-left: .3px solid #000;
+}
+
+.tb-head-dacte {
+    font-size: 10px;
+    width: 100%;
+    text-align: left;
+    border: 0.2px solid #000;
+    margin-bottom: 1px;
+}
+
+#pedido>tr>td {
+    border: 1px solid #000;
+}
+
+.info-body {
+    font-size: 8px;
+    width: 100%;
+    text-align: left;
+    border: 0.2px solid #000;
+    margin-bottom: 10px;
+}
+
+.info-cte {
+    font-size: 7px;
+    width: 100%;
+    text-align: left;
+    border: .2px solid #000;
+    padding: 4px 0px 4px 0px;
+}
+
+svg {
+    width: 302.36220472px;
+    height: 85px;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.control-fisco {
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 35%;
+}
+
+.protocolo {
+    font-size: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.protocolo td {
+    text-align: left;
+}
+
+.lb-title-100 {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.lb-sub-title-100 {
+    font-size: 9px;
+}
+
+.lb-title-50 {
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.container-lb-chave,
+.container-lb-chave-100,
+.container-lb-chave-125 {
+    width: 75px;
+    font-size: 9px;
+    font-weight: bold;
+    float: left;
+}
+
+.container-lb-chave-100 {
+    width: 110px;
+    font-size: 7px;
+}
+
+.container-lb-chave-125 {
+    width: 125px;
+    font-size: 9px;
+}
+
+.container-lb-chave-210 {
+    width: 210px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.container-lb-valor,
+.container-lb-valor-100,
+.container-lb-valor-125 {
+    width: calc(100% - 75px);
+    font-size: 10px;
+    float: left;
+}
+
+.container-lb-valor-100 {
+    width: calc(100% - 110px);
+    font-size: 7px;
+    float: left;
+}
+
+.container-lb-valor-125 {
+    width: calc(100% - 125px);
+    font-size: 10px;
+}
+
+.container-lb-valor-210 {
+    width: calc(100% - 210px);
+    font-size: 7px;
+}
+
+.product {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
+/* TABELAS */
+
+.product-table {
+    font-size: 7px;
+    width: 100%;
+    text-align: left;
+}
+
+.product-table td {
+    text-align: center;
+    font-size: 7px;
+}
+
+.product-table th {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* TD VALOR DA MERCADORIA */
+
+#vlr-mercadoria {
+    text-align: right;
+}
+
+.caracteristicas-table {
+    font-size: 6px;
+    width: 100%;
+    text-align: left;
+}
+
+.seguradora-table {
+    font-size: 8px;
+    width: 100%;
+    text-align: left;
+    text-align: center;
+}
+
+.sit-tribut {
+    font-size: 8px;
+    width: 100%;
+    text-align: left;
+}
+
+.info-modal {
+    width: 100%;
+    font-size: 6px;
+}
+
+.info-modal th {
+    border-right: 0.3px solid #000;
+    text-align: center;
+}
+
+.info-modal td {
+    text-align: center;
+}
+
+.info-motorista {
+    font-size: 8px;
+    width: 100%;
+}
+
+.info-motorista th,
+td {
+    text-align: left;
+}
+
+.prest-servico {
+    font-size: 9px;
+    font-weight: bold;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.nfe {
+    width: 100%;
+    font-size: 7px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.col-30 {
+    width: 33%;
+    float: left;
+    margin-bottom: 1px;
+    word-wrap: break-word;
+    min-height: 11px;
+}
+
+.lb-chave-30 {
+    width: 50px;
+    font-size: 7px;
+    float: left;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.lb-valor-100 {
+    width: 100px;
+    font-size: 7px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.float-left {
+    float: left;
+}
+
+.nfe {
+    width: 100%;
+    float: left;
+}
+
+.block-all {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    background: rgba(0, 0, 0, 0.5);
+}
