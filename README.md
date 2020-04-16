@@ -1,2 +1,5 @@
-# electron-express
-Example of running basic node.js express middleware from an Electron app.
+# Projeto de Impressão Automática
+Projeto responsável por receber uma solicitação e imprimir automáticamente.
+
+## Exemplo de Build 
+electron-packager .\electron-express\ impressao --plataform=win32 --arch=x64
