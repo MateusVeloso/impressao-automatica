@@ -19,7 +19,7 @@
   ],
   "author": "Jason Henderson",
   "devDependencies": {
-    "electron": "^4.0.5",
+    "electron": "^9.4.0",
     "electron-packager": "^13.0.1"
   },
   "dependencies": {
